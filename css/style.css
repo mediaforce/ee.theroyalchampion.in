@@ -1,6 +1,7 @@
 body{background:url(../images/bg-seamless.jpg) fixed;}
 #banner{background:url(../images/mainlogo.jpg) top no-repeat;background-size:cover;}
 #banner-clan{height: 172px;width:523px;margin-top:15px;background:url('../images/banner_Top2.png');background-size: contain;}
+.eelogo{background:url(../images/eelogo.png) fixed;height: 140px;width:373px;}
 .w3-teal{background-color:#0A466B!important;}
 /* Youtube Reflexive */
 .vid-container {
