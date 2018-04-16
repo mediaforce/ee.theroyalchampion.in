@@ -28,14 +28,5 @@ function includeHTML() {
 includeHTML();
 
 
-window.onload = function(){
-	function googleTranslateElementInit() {
-		new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'ar,de,en,es,fr,it,nl,pt,ru', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
-	}
-	var tag = document.createElement("script");
-	tag.src = "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
-	document.getElementsByTagName("head")[0].appendChild(tag);
-	  
-};
 
     
