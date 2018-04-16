@@ -26,3 +26,10 @@ function includeHTML() {
   }
 }
 includeHTML();
+
+
+function googleTranslateElementInit() {
+	new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'ar,de,en,es,fr,it,nl,pt,ru', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+
+      
